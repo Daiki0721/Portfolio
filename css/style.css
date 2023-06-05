@@ -118,8 +118,9 @@ body {
 .article-list li {
 	flex-basis: 30%;
 	height: 100%;
-	-webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+	-webkit-box-shadow: 0 6px 10px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.6);
+	background-color: rgba(105, 105, 105,0.83)
 }
 
 .article-link {
@@ -142,10 +143,32 @@ body {
 }
 
 .project-body-headline{
-	color: black;
+	color: white;
 	padding-bottom: 20px;
 }
 
 .project-body-paragraph{
-	color: black;
+	color: white;
+}
+
+
+/*---- footer ----*/
+
+.footer{
+	background: white;
+	margin-top: 5px;
+}
+
+.footer-list{
+	list-style: none;
+	width: 330px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.copyright{
+	margin-left: 15px;
+	margin-bottom: 5px;
 }
